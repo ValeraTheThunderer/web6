@@ -25,7 +25,7 @@ function update() {
             break;
         case "1":
             rd.style.display = "block";
-            cd.style.display = "none";
+            cd.style.display = "flex";
             res = prices.defPrice[parseInt(select.value)];
             break;
         case "2":
@@ -40,7 +40,7 @@ function update() {
             break;
         case "4":
             rd.style.display = "block";
-            cd.style.display = "none";
+            cd.style.display = "flex";
             res = prices.defPrice[parseInt(select.value)];
             break;
         default:
